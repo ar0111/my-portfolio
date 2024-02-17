@@ -4,11 +4,11 @@ import { Link } from 'react-router-dom';
 const Header = () => {
 
     const menuItems = <>
-        <li className='font-semibold text-lg p-0'><Link className='px-2' to='/'>Home</Link></li>
-        <li className='font-semibold text-lg'><Link className='px-2' to='/about'>About</Link></li>
-        <li className='font-semibold text-lg'><Link className='px-2' to='/skills'>Skills</Link></li>
-        <li className='font-semibold text-lg'><Link className='px-2' to='/projects'>Projects</Link></li>
-        <li className='font-semibold text-lg'><Link className='px-2' to='/contactme'>Contact Me</Link></li>
+        <li className='font-semibold text-lg p-0'><a className='px-2' href='#'>Home</a></li>
+        <li className='font-semibold text-lg'><a className='px-2' href='#about'>About</a></li>
+        <li className='font-semibold text-lg'><a className='px-2' href='#skills'>Skills</a></li>
+        <li className='font-semibold text-lg'><a className='px-2' href='#projects'>Projects</a></li>
+        <li className='font-semibold text-lg'><a className='px-2' href='#'>Contact</a></li>
     </>
 
     return (
@@ -23,7 +23,7 @@ const Header = () => {
                             {menuItems}
                         </ul>
                     </div>
-                    <Link to='/' className="text-2xl font-bold">Web<span className='text-green-600'>Dev</span></Link>
+                    <a href='#' className="text-2xl font-bold">Web<span className='text-green-600'>Dev</span></a>
                 </div>
 
                 <div className="navbar-center hidden lg:flex">

@@ -1,5 +1,6 @@
 import { nanoid } from 'nanoid';
 import { FaHtml5, FaJs, FaReact } from 'react-icons/fa';
+import { IoLogoFirebase } from "react-icons/io5";
 
 export const links = [
   { id: nanoid(), href: '#home', text: 'home' },
@@ -19,7 +20,7 @@ export const skills = [
     id: nanoid(),
     title: 'Javascript',
     icon: <FaJs className='h-16 w-16 text-emerald-500' />,
-    text: 'Expertise in JavaScript, building interactive and dynamic web applications with a focus on seamless user interactions and functionality',
+    text: 'Strong understanding of asynchronous programming using promises and async/await. Contributed to an open-source library utilizing web workers for background tasks.',
   },
   {
     id: nanoid(),
@@ -27,31 +28,29 @@ export const skills = [
     icon: <FaReact className='h-16 w-16 text-emerald-500' />,
     text: 'Advanced proficiency in React, developing efficient and interactive front-end applications with a strong emphasis on component-based architecture.',
   },
+  {
+    id: nanoid(),
+    title: 'Firebase',
+    icon: <IoLogoFirebase className='h-16 w-16 text-emerald-500' />,
+    text: 'Implemented user authentication with Firebase Authentication and social logins. Deployed a portfolio website with Firebase Hosting, ensuring fast loading times and global scalability.',
+  },
 ];
 
 export const projects = [
   {
     id: nanoid(),
     img: 'https://images.pexels.com/photos/326503/pexels-photo-326503.jpeg?auto=compress&cs=tinysrgb&w=800',
-    url: 'https://react-projects.netlify.app/',
-    github: 'https://github.com/john-smilga',
-    title: 'first project',
+    url: 'https://final-project-e507c.web.app/',
+    github: 'https://github.com/ar0111/Doctors_Portal_Frontend',
+    title: 'Doctors Portal',
     text: 'Lorem ipsum dolor sit amet consectetur, adipisicing elit. Asperiores aperiam porro impedit tenetur quo hic omnis doloribus dolores enim deleniti.',
   },
   {
     id: nanoid(),
     img: 'https://images.pexels.com/photos/2148222/pexels-photo-2148222.jpeg?auto=compress&cs=tinysrgb&w=800',
-    url: 'https://react-projects.netlify.app/',
-    github: 'https://github.com/john-smilga',
-    title: 'second project',
-    text: 'Lorem ipsum dolor sit amet consectetur, adipisicing elit. Asperiores aperiam porro impedit tenetur quo hic omnis doloribus dolores enim deleniti.',
-  },
-  {
-    id: nanoid(),
-    img: 'https://images.pexels.com/photos/12883026/pexels-photo-12883026.jpeg?auto=compress&cs=tinysrgb&w=800',
-    url: 'https://react-projects.netlify.app/',
-    github: 'https://github.com/john-smilga',
-    title: 'third project',
+    url: 'https://selz-mart.web.app/',
+    github: 'https://github.com/ar0111/Selz-Frontend',
+    title: 'Selz Mart',
     text: 'Lorem ipsum dolor sit amet consectetur, adipisicing elit. Asperiores aperiam porro impedit tenetur quo hic omnis doloribus dolores enim deleniti.',
   },
 ];

@@ -3,10 +3,10 @@ import profilePic from '../../assets/images/PICTURE_3 (2).jpg';
 import { FaGithubSquare, FaLinkedin, FaTwitterSquare } from 'react-icons/fa';
 const Hero = () => {
   return (
-    <section className='bg-emerald-100 py-24  '>
+    <section className='bg-emerald-100 py-24 '>
       <div className=' mx-auto max-w-7xl  px-8  grid  md:grid-cols-2 items-center gap-8'>
         <article>
-          <h1 className='text-7xl font-bold tracking-wider'>I'm Arafat</h1>
+          <h1 className='text-5xl md:text-7xl font-bold tracking-wider'>I'm Arafat</h1>
           <p className='mt-4 text-3xl text-slate-700 capitalize tracking-wide'>
             Front-end developer
           </p>
@@ -23,7 +23,7 @@ const Hero = () => {
           </div>
         </article>
 
-        <article className='hidden md:block '>
+        <article className='hidden md:block mx-auto'>
           <img src={profilePic} className='h-96 lg:h-96 rounded-full' />
         </article>
       </div>
