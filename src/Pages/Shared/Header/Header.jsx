@@ -1,7 +1,25 @@
-import React from 'react';
+import React, { useEffect, useState } from 'react';
 import { Link } from 'react-router-dom';
 
 const Header = () => {
+    const [header, setHeader] = useState(false);
+
+    const scrollHeader = () =>{
+        if(window.screenY >= 20){
+            setHeader(true);
+        } else{
+            setHeader(false);
+        }
+    }
+
+    useEffect(()=>{
+        window.addEventListener('scroll', scrollHeader);
+
+        return ()=>{
+            window.addEventListener('scroll', scrollHeader);
+        }
+
+    },[])
 
     const menuItems = <>
         <li className='font-semibold text-lg p-0'><a className='px-2' href='#'>Home</a></li>
@@ -12,8 +30,8 @@ const Header = () => {
     </>
 
     return (
-        <div className='bg-emerald-100'>
-            <div className="navbar position-fixed flex justify-start items-center container mx-auto gap-10 py-6">
+        <div className=' sticky top-0 bg-emerald-200'>
+            <div className="navbar flex justify-start items-center container mx-auto gap-10 py-6">
                 <div className="">
                     <div className="dropdown">
                         <div tabIndex={0} role="button" className="btn btn-ghost lg:hidden">
