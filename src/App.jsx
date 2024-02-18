@@ -5,6 +5,8 @@ import Hero from './Pages/Home/Hero'
 import Skills from './Pages/Skills/Skills'
 import About from './Pages/About/About'
 import Projects from './Pages/Projects/Projects'
+import ContactMe from './Pages/ContactMe/ContactMe';
+import toast, { Toaster } from 'react-hot-toast';
 
 function App() {
 
@@ -15,6 +17,8 @@ function App() {
       <Skills></Skills>
       <About></About>
       <Projects></Projects>
+      <ContactMe></ContactMe>
+      <Toaster />
     </div>
   )
 }

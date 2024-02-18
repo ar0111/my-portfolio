@@ -9,8 +9,8 @@ const Projects = () => {
             <section className='py-20 align-element' id='projects'>
                 <SectionTitle text='web creations' />
                 <div className='py-16 grid lg:grid-cols-2 xl:grid-cols-3 gap-8'>
-                    {projects.map((project) => {
-                    return <ProjectCard key={project.id} {...project} />;
+                    {projects.map((project, idx) => {
+                    return <ProjectCard key={project.id} {...project} idx={idx} />;
                     })}
                 </div>
             </section>

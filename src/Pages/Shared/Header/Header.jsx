@@ -8,12 +8,12 @@ const Header = () => {
         <li className='font-semibold text-lg'><a className='px-2' href='#about'>About</a></li>
         <li className='font-semibold text-lg'><a className='px-2' href='#skills'>Skills</a></li>
         <li className='font-semibold text-lg'><a className='px-2' href='#projects'>Projects</a></li>
-        <li className='font-semibold text-lg'><a className='px-2' href='#'>Contact</a></li>
+        <li className='font-semibold text-lg'><a className='px-2' href='#contact'>Contact</a></li>
     </>
 
     return (
         <div className='bg-emerald-100'>
-            <div className="navbar flex justify-start items-center container mx-auto gap-10 py-6">
+            <div className="navbar position-fixed flex justify-start items-center container mx-auto gap-10 py-6">
                 <div className="">
                     <div className="dropdown">
                         <div tabIndex={0} role="button" className="btn btn-ghost lg:hidden">
