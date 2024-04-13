@@ -1,5 +1,5 @@
 import heroImg from '../../assets/images/hero.svg';
-import profilePic from '../../assets/images/PICTURE_3 (2).jpg';
+import profilePic from '../../assets/images/arafat.png';
 import { FaGithubSquare, FaLinkedin, FaTwitterSquare } from 'react-icons/fa';
 const Hero = () => {
   return (
@@ -24,7 +24,7 @@ const Hero = () => {
         </article>
 
         <article className='hidden md:block mx-auto'>
-          <img src={profilePic} className='h-96 lg:h-96 rounded-full' />
+          <img src={profilePic} className='h-96 lg:h-96 rounded' />
         </article>
       </div>
     </section>
