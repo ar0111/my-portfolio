@@ -11,7 +11,7 @@ const Hero = () => {
             Front-end developer
           </p>
           <p className='mt-2 text-lg text-slate-700 capitalize tracking-wide'>
-            turning ideas into interactive reality
+            Develop a strong understanding of accessibility best practices and implement them in all projects.
           </p>
           <div className='flex gap-x-4 mt-4'>
             <a href='https://github.com/ar0111' target='_blank'>
