@@ -53,4 +53,12 @@ export const projects = [
     title: 'Selz Mart',
     text: 'This website for buy and sell of used electronics and gadgets. There are three division - Seller, Buyer and Admin. When one user sign up, by default his/her role will be set to buyer unless he/she choose seller role. Admin role can be available when admin set anyone role as admin. Seller can add or delete any product. He/she can also see all products in dashboard. User can see their booked products in dashboard. Doing Backend with NodeJS and MongoDB. Provide Authentication with Firebase.',
   },
+  {
+    id: nanoid(),
+    img: 'https://images.pexels.com/photos/2148222/pexels-photo-2148222.jpeg?auto=compress&cs=tinysrgb&w=800',
+    url: 'https://jobster-3d220.web.app/',
+    github: 'https://github.com/ar0111/Jobster_Frontend',
+    title: 'Jobster',
+    text: 'This website for tracking job status for personal use. Any user can track his/her job application status by this site. He can listed all jobs by interview, pending and declined. User can add new job, delete existing job and edit it also.',
+  }
 ];
